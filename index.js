@@ -20,6 +20,7 @@ const driversByName = (drivers) => {
 function totalRevenue(driver){
   let revenue = 0;
   for (i = 0; i < driver.length ; i++ ){
-
+    revenue += driver.revenue
   }
+  return revenue
 }
